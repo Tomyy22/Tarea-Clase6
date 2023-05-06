@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="nav-container">
+      <nav id="inicio">
+        <ul>
+          <div class="items">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="horarios.html">Horarios de Atencion</a></li>
+            <li><a href="nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="productos.html">Productos</a></li>
+          </div>
+        </ul>
+        <img src="../img/logo.jpeg" alt="logo" />
+      </nav>
+    </header>
+
+    <div class="title-container">
+      <h1 class="title">Panaderia Cony</h1>
+    </div>
+
+    <div class="title contact-title">
+      <h2>Contacto</h2>
+    </div>
+
+    <main>
+      <div class="form-container">
+        <form class="form">
+          <div class="general name-container">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ej:Lionel"
+              maxlength="20"
+              required
+            />
+            <br />
+            <br />
+            <label for="apellido">Apellido</label>
+            <input
+              type="text"
+              name="apellido"
+              id="apellido"
+              placeholder="Ej:Messi"
+              maxlength="20"
+              required
+            />
+            <br />
+            <br />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Ej:Lionelmessi@gmail.com"
+              required
+            />
+            <br />
+            <br />
+
+            <label for="sexo-masc">Masculino</label>
+            <input type="radio" name="sexo" value="Masculino" id="Masculino" />
+            <br />
+            <br />
+            <label for="sexo-fem">Femenino</label>
+            <input type="radio" name="sexo" value="Femenino" id="Femenino" />
+            <br />
+            <br />
+            <label for="sexo-otro">Otro</label>
+            <input type="radio" name="sexo" value="Otro" id="Otro" /> <br />
+            <br />
+          </div>
+          <div class="general commits-container">
+            <label for="commit">Descipcion Personal:</label> <br />
+            <br />
+            <textarea
+              name="commit"
+              cols="30"
+              rows="10"
+              id="commit"
+              maxlength="200"
+              placeholder="Ej:Hola Soy Lionel Messi..."
+            ></textarea>
+            <br />
+            <br />
+            <label for="consulta">Hace aca tu consulta!!</label> <br />
+            <br />
+            <textarea
+              name="consulta"
+              id="consulta"
+              cols="40"
+              rows="10"
+              placeholder="Ej:Hola, quiero trabajar con ustedes!"
+            ></textarea>
+            <br />
+            <br />
+            <input type="submit" name="submit" value="Enviar" />
+            <input type="reset" name="reset" value="Restablecer" />
+            <br />
+            <br />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="footer-container">
+      <a href="https://www.instagram.com/tomyplassy/" target="_blank"
+        ><img src="../img/insta.png" alt="logo-ig"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="../img/facebook.png" alt="logo-fb"
+      /></a>
+      <a href="#" target="_blank"
+        ><img id="twitter" src="../img/twitter.png" alt="logo-tw"
+      /></a>
+      <i>&copy;Derechos Reservados 2023</i>
+    </footer>
+  </body>
+</html>
